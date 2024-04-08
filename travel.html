@@ -13,6 +13,8 @@
             navLinks.classList.toggle('show');
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
     <a href = "#main" class = "skip-to-main"> Skip to Main Content</a>
@@ -46,7 +48,7 @@
                     </p>
 
                 <h3> Photo Gallery</h3>
-                <div class = "photo-container">
+                <div class = "photo-container1">
 
                 <figure class = "photo photo1">
                     <img src="images/yellowstone_travertine.JPG" width = "400" alt="A large mound of multi-colored travertine">
@@ -84,9 +86,10 @@
 
         <div class = "travel-container">
             <h2> Monteverde, Costa Rica </h2>
-
+            <div class = "travel-image-container">
             <img src="images/Monteverde.gif" width = "400" alt="Zipline, Kayak, Woods">
             <img src="images/Monteverde_skyline.jpeg" width = "400" alt="Skyline at Monteverde">
+        </div>
                 <h3> Geographical Location: South America </h3>
                     <p>
                         Monteverde, Costa Rica is situated 4,662 feet above sea level. Monteverde’s famed cloud forests are the byproduct of fog (a thick, low-hanging cloud) tangling amongst the leaves and branches of the forest canopy. Trails and hanging bridges offer a close-up view of the diverse variety of animals and plants living in the forest.
@@ -130,7 +133,7 @@
                     <p>
                         Rome is also a great location for food, wine, and leisure. At the heart of Italy, Rome is a central gathering place for a diverse array of Italian cuisine; Neapolitan Pizza from the south, Tuscan wine, and truffle from the north. Rome’s most famous dish is carbonara. Beyond the food, Rome has a vibrant nightlife. The Trastevere neighborhood has plenty of bars and clubs for patrons and, just over the river, Centro’s shopping district is always bustling.
                     </p>
-
+                <div class = "travel-image-container">
                 <figure>
                     <img src="images/colosseum-rome.gif" width = "400" alt="A view of the colosseum ruins at night.">
                     <figcaption> A view of the colosseum ruins at night. </figcaption>
@@ -140,6 +143,8 @@
                     <img src="images/colosseum-rome.jpg" width = "400" alt="A view of the colosseum during the day.">
                     <figcaption> A view of the colosseum during the day. </figcaption>
                 </figure>
+            </div>
+
 
                 <h3> Photo Gallery</h3>
                 <div class = "photo-container">
@@ -173,6 +178,7 @@
     </footer>
 
     <!-- javascript added here -->
-    <script src="js/java.js"></script>
+    <script src="js/dataVisualization.js"></script>
+
 </body>
 </html>
